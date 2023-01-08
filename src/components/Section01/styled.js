@@ -2,23 +2,28 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: 900px;
+  height: 1400px;
   background-color: #13131f;
   display: flex;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    height: 950px;
+  }
 
   .up {
-    height: 600px;
+    height: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
 
     @media (min-width: 768px) {
       flex-direction: row;
+      height: 600px;
     }
 
     .left {
       width: 100%;
-      height: 100%;
       display: flex;
       margin-left: auto;
       margin-right: auto;
@@ -61,7 +66,6 @@ export const Container = styled.section`
     }
 
     .right {
-      height: 100%;
       width: 100%;
       display: flex;
       margin-left: auto;
@@ -85,6 +89,37 @@ export const Container = styled.section`
           object-fit: cover;
         }
       }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #13131f;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @media (min-width: 768px) {
+      padding-left: 255px;
+      padding-right: 255px;
+    }
+
+    h1 {
+      color: #00d9ff;
+      font-size: 40px;
+      font-family: sans-serif;
+      font-weight: bold;
+    }
+    p {
+      font-size: 20px;
+      font-weight: bolder;
+      text-align: center;
+      margin-top: 15px;
+      color: #788282;
     }
   }
 `;

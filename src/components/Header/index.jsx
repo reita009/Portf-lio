@@ -1,6 +1,7 @@
 import * as C from "./styled";
 
 import NeonButton from "../NeonButton";
+import ButtonShake from "../ButtonShakeMini";
 
 //icons
 import MenuIcon from "@mui/icons-material/Menu";
@@ -18,9 +19,9 @@ const Header = () => {
         </div>
 
         <div className="right">
-          <NeonButton name="Home" />
-          <NeonButton name="Sobre" />
-          <NeonButton name="Contato" />
+          <ButtonShake name="Home" />
+          <ButtonShake name="Sobre" />
+          <ButtonShake name="Contato" />
         </div>
       </C.Container>
     </>
