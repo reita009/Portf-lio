@@ -47,6 +47,20 @@ export const Container = styled.section`
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      cursor: pointer;
+      transition: ease-in;
+      transition-duration: 0.4s;
+      transition-delay: 0s;
+
+      :hover {
+        height: 160px;
+        width: 140px;
+        margin: 0;
+        border: 4px solid #00d9ff;
+        color: #00d9ff;
+        box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+        text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff;
+      }
 
       p {
         font-size: 18px;
