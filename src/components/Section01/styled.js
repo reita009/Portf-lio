@@ -6,6 +6,7 @@ export const Container = styled.section`
   background-color: #13131f;
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 
   @media (min-width: 768px) {
     height: 950px;
@@ -59,7 +60,7 @@ export const Container = styled.section`
         .btn-group {
           width: 350px;
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           margin-top: 30px;
         }
       }

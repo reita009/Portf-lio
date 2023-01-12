@@ -4,6 +4,9 @@ import Avatar from "../../assets/Avatar.png";
 
 import ButtonShake from "../ButtonShake";
 
+const urlDownload =
+  "https://drive.google.com/file/d/1aPVtk4lXnvu9IHvOMyQ0tbtJCqaJUQXU/view?usp=share_link";
+
 const Section01 = () => {
   return (
     <>
@@ -17,8 +20,9 @@ const Section01 = () => {
               </h1>
               <p>Desenvolvedor Front-End</p>
               <div className="btn-group">
-                <ButtonShake className="btn" name="Download CV" />
-                <ButtonShake className="btn" name="Entrar em contato" />
+                <a href={urlDownload} target="_blank">
+                  <ButtonShake className="btn" name="Download CV" />
+                </a>
               </div>
             </div>
           </div>
@@ -33,12 +37,12 @@ const Section01 = () => {
         <div className="bottom">
           <h1>Sobre mim</h1>
           <p>
-            Desenvolvedor Front-end com experiência em React.js, Next.js, Redux,
+            Desenvolvedor Front-end com experiência em React.js, php,
             JavaScript, TypeScript, Styled Components, Material UI e consumo de
             APIs REST. Apaixonado pelo desenvolvimento de componentes
             reutilizáveis. Também possui experiência em projetos gerenciados por
-            Metodologias Ágeis. Formado em Sistemas de Informação e cursando
-            Especialização em Front-End na Digital House Brasil.
+            Metodologias Ágeis. cursando análise e desenvolvimento de sistemas e
+            Especialização em Front-End na B7web .
           </p>
         </div>
       </C.Container>

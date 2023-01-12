@@ -17,6 +17,23 @@ export const Container = styled.header`
     padding: 0px 20px 0px 13px;
   }
 
+  .desktop {
+    display: none;
+    align-items: center;
+    width: 400px;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      .btn-whrap {
+        width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+  }
+
   .left {
     display: flex;
     width: 50px;
@@ -31,6 +48,26 @@ export const Container = styled.header`
         color: #00d9ff;
         box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
         text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff;
+      }
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+
+    .react-icon {
+      height: 50px;
+      margin-left: 30px;
+      cursor: pointer;
+      color: #00d9ff;
+      border-radius: 25px;
+      :hover {
+        color: #00d9ff;
+        box-shadow: 0px 0px 35px #00d9ff, 0px 0px 15px #00d9ffc0 inset;
+        text-shadow: 0px 0px 10px #00d9ffcc, 0px 0px 3px #00d9ff;
+      }
+      @media (max-width: 768px) {
+        display: none;
       }
     }
   }

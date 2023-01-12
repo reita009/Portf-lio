@@ -8,15 +8,16 @@ import ButtonShakeMobile from "../ButtonShakeMobile";
 
 //icons
 import MenuIcon from "@mui/icons-material/Menu";
+import ReactIcon from "../../assets/react-icon.png";
 
 const Header = () => {
-  const [check, setCheck] = useState(false);
+  const [checkMobile, setCheckMobile] = useState(false);
 
   const handleClick = () => {
-    if (check) {
-      setCheck(false);
+    if (checkMobile) {
+      setCheckMobile(false);
     } else {
-      setCheck(true);
+      setCheckMobile(true);
     }
   };
 
@@ -30,13 +31,14 @@ const Header = () => {
             }}
             className=" icon"
           />
+          <img className="react-icon" src={ReactIcon} />
         </div>
 
         <div className="mid">
           <h1>Portfólio</h1>
         </div>
 
-        {check && (
+        {checkMobile && (
           <div className="right">
             <div className="btn-whrap">
               <ButtonShakeMobile name="Home" />
@@ -49,6 +51,18 @@ const Header = () => {
             </div>
           </div>
         )}
+
+        <div className="desktop">
+          <div className="btn-whrap">
+            <ButtonShakeMobile name="Home" />
+          </div>
+          <div className="btn-whrap">
+            <ButtonShakeMobile name="Sobre" />
+          </div>
+          <div className="btn-whrap">
+            <ButtonShakeMobile name="Contato" />
+          </div>
+        </div>
       </C.Container>
     </>
   );
