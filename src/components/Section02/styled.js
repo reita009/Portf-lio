@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   width: 100%;
-  height: calc(100vh + 300px);
   background-color: #13131f;
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 
   @media (min-width: 768px) {
     height: 100%;

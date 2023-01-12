@@ -4,7 +4,7 @@ import Project01 from "../../assets/Project1.png";
 
 export const Container = styled.section`
   width: 100%;
-  height: calc(100vh + 300px);
+  padding-bottom: 100px;
   background-color: #13131f;
   display: flex;
   flex-direction: column;

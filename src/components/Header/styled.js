@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-  height: 250px;
   background-color: #13131f;
   border-bottom: 2px solid #00d9ff;
   padding-bottom: 30px;
@@ -49,6 +48,19 @@ export const Container = styled.header`
     display: flex;
     align-items: center;
     width: 400px;
-    justify-content: space-around;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+    .btn-whrap {
+      width: 100%;
+      margin-top: 4px;
+      @media (min-width: 768px) {
+        width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
   }
 `;

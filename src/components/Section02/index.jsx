@@ -1,17 +1,19 @@
 import * as C from "./styled";
 
 //icons
-import JavascriptIcon from "@mui/icons-material/Javascript";
-import PhpIcon from "@mui/icons-material/Php";
-import CodeIcon from "@mui/icons-material/Code";
-import CodeOffIcon from "@mui/icons-material/CodeOff";
-import TitleIcon from "@mui/icons-material/Title";
-import StorageIcon from "@mui/icons-material/Storage";
-import IntegrationInstructionsIcon from "@mui/icons-material/IntegrationInstructions";
-import SendToMobileIcon from "@mui/icons-material/SendToMobile";
-import HdrAutoIcon from "@mui/icons-material/HdrAuto";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import BrushIcon from "@mui/icons-material/Brush";
+import AngularIcon from "../../assets/angular-icon.png";
+import CssIcon from "../../assets/css-icon.png";
+import GitIcon from "../../assets/git-icon.png";
+import GmainIcon from "../../assets/gmail-icon.png";
+import HtmlIcon from "../../assets/html-icon.png";
+import JsIcon from "../../assets/js-icon.png";
+import LinkedinIcon from "../../assets/linkedin-icon.png";
+import MysqlIcon from "../../assets/mysql-icon.png";
+import NativeIcon from "../../assets/native-icon.png";
+import PhpIcon from "../../assets/php-icon.png";
+import ReactIcon from "../../assets/react-icon.png";
+import StyledIcon from "../../assets/styled-component-icon.png";
+import TypeScriptIcon from "../../assets/typescript-icon.png";
 
 const Section02 = () => {
   return (
@@ -24,47 +26,47 @@ const Section02 = () => {
         <div className="container-icons">
           <div className="skill">
             <p>JavaScript</p>
-            <JavascriptIcon className="icon" />
+            <img src={JsIcon} className="icon" />
           </div>
           <div className="skill">
             <p>PHP</p>
-            <PhpIcon className="icon" />
+            <img src={PhpIcon} className="icon" />
           </div>
           <div className="skill">
             <p>HTML</p>
-            <CodeIcon className="icon" />
+            <img src={HtmlIcon} className="icon" />
           </div>
           <div className="skill">
             <p>CSS</p>
-            <CodeOffIcon className="icon" />
+            <img src={CssIcon} className="icon" />
           </div>
           <div className="skill">
             <p>Styled-componemts</p>
-            <BrushIcon className="icon" />
+            <img src={StyledIcon} className="icon" />
           </div>
           <div className="skill">
             <p>TypeScript</p>
-            <TitleIcon className="icon" />
+            <img src={TypeScriptIcon} className="icon" />
           </div>
           <div className="skill">
             <p>SQL/MySQL</p>
-            <StorageIcon className="icon" />
+            <img src={MysqlIcon} className="icon" />
           </div>
           <div className="skill">
             <p>React JS</p>
-            <IntegrationInstructionsIcon className="icon" />
+            <img src={ReactIcon} className="icon" />
           </div>
           <div className="skill">
             <p>React Native</p>
-            <SendToMobileIcon className="icon" />
+            <img src={NativeIcon} className="icon" />
           </div>
           <div className="skill">
             <p>Angular</p>
-            <HdrAutoIcon className="icon" />
+            <img src={AngularIcon} className="icon" />
           </div>
           <div className="skill">
             <p>Git/GitHub</p>
-            <GitHubIcon className="icon" />
+            <img src={GitIcon} className="icon" />
           </div>
         </div>
       </C.Container>
