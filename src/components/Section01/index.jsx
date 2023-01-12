@@ -37,12 +37,12 @@ const Section01 = () => {
         <div className="bottom">
           <h1>Sobre mim</h1>
           <p>
-            Desenvolvedor Front-end com experiência em React.js, php,
+            Desenvolvedor Front-end com experiência em React.js, Php,
             JavaScript, TypeScript, Styled Components, Material UI e consumo de
             APIs REST. Apaixonado pelo desenvolvimento de componentes
-            reutilizáveis. Também possui experiência em projetos gerenciados por
-            Metodologias Ágeis. cursando análise e desenvolvimento de sistemas e
-            Especialização em Front-End na B7web .
+            reutilizáveis. Também possuo experiência em projetos gerenciados por
+            Metodologias Ágeis. Cursando Análise e Desenvolvimento de Sistemas e
+            Especialização em Front-End na B7web.
           </p>
         </div>
       </C.Container>
