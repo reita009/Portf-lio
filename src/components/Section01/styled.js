@@ -81,7 +81,7 @@ export const Container = styled.section`
         border-radius: 65% 35% 70% 30% / 29% 30% 70% 71%;
         display: flex;
 
-        @media (min-width: 768px) {
+        @media (min-width: 968px) {
           width: 400px;
           height: 400px;
         }
@@ -93,7 +93,7 @@ export const Container = styled.section`
           margin-left: 10px;
           object-fit: cover;
 
-          @media (min-width: 768px) {
+          @media (min-width: 968px) {
             width: 350px;
             height: 400px;
           }
