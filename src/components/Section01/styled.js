@@ -86,17 +86,12 @@ export const Container = styled.section`
           height: 400px;
         }
         img {
-          width: 250px;
-          height: 300px;
+          height: 100%;
+          width: 100%;
+
           border-radius: 65% 35% 70% 30% / 29% 30% 70% 71%;
           margin-top: auto;
-          margin-left: 10px;
           object-fit: cover;
-
-          @media (min-width: 968px) {
-            width: 350px;
-            height: 400px;
-          }
         }
       }
     }
