@@ -72,8 +72,8 @@ export const Container = styled.section`
       margin-left: auto;
       margin-right: auto;
       .avatar {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         background-color: #00d9ff;
         margin-left: auto;
         margin-right: auto;
@@ -81,13 +81,22 @@ export const Container = styled.section`
         border-radius: 65% 35% 70% 30% / 29% 30% 70% 71%;
         display: flex;
 
-        img {
-          width: 350px;
+        @media (min-width: 768px) {
+          width: 400px;
           height: 400px;
+        }
+        img {
+          width: 250px;
+          height: 300px;
           border-radius: 65% 35% 70% 30% / 29% 30% 70% 71%;
           margin-top: auto;
           margin-left: 10px;
           object-fit: cover;
+
+          @media (min-width: 768px) {
+            width: 350px;
+            height: 400px;
+          }
         }
       }
     }
