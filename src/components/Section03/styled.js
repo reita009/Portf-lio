@@ -36,8 +36,8 @@ export const Container = styled.section`
 
     .project {
       margin-top: 35px;
-      height: 210px;
-      width: 370px;
+      height: 180px;
+      width: 250px;
 
       background-repeat: no-repeat;
       background-size: 400px;
