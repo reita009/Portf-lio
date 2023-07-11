@@ -14,6 +14,7 @@ import PhpIcon from "../../assets/php-icon.png";
 import ReactIcon from "../../assets/react-icon.png";
 import StyledIcon from "../../assets/styled-component-icon.png";
 import TypeScriptIcon from "../../assets/typescript-icon.png";
+import NodeJsIcon from "../../assets/node-js-icon.png";
 
 const Section02 = () => {
   return (
@@ -67,6 +68,10 @@ const Section02 = () => {
           <div className="skill">
             <p>Git/GitHub</p>
             <img src={GitIcon} className="icon" />
+          </div>
+          <div className="skill">
+            <p>Node-Js</p>
+            <img src={NodeJsIcon} className="icon" />
           </div>
         </div>
       </C.Container>

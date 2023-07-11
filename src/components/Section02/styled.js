@@ -68,9 +68,11 @@ export const Container = styled.section`
         text-align: center;
         margin-bottom: 3px;
       }
+      img {
+        height: 70px;
+      }
 
       .icon {
-        font-size: 70px;
         align-items: center;
       }
     }

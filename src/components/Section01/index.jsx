@@ -5,7 +5,7 @@ import Avatar from "../../assets/Avatar.png";
 import ButtonShake from "../ButtonShake";
 
 const urlDownload =
-  "https://drive.google.com/file/d/1aPVtk4lXnvu9IHvOMyQ0tbtJCqaJUQXU/view?usp=share_link";
+  "https://drive.google.com/file/d/1V8Q8b7zdViIPEyMckPnjHlYfUaPPEUWP/view";
 
 const Section01 = () => {
   return (
@@ -18,7 +18,7 @@ const Section01 = () => {
                 Olá, eu sou o <br />
                 <span>Julio Santana</span>
               </h1>
-              <p>Desenvolvedor Front-End</p>
+              <p>Desenvolvedor Full-Stack</p>
               <div className="btn-group">
                 <a href={urlDownload} target="_blank">
                   <ButtonShake className="btn" name="Download CV" />
@@ -37,7 +37,7 @@ const Section01 = () => {
         <div className="bottom">
           <h1>Sobre mim</h1>
           <p>
-            Desenvolvedor Front-end com experiência em React.js, Php,
+            Desenvolvedor Full-Stack com experiência em React.js, Node-Js, Php,
             JavaScript, TypeScript, Styled Components, Material UI e consumo de
             APIs REST. Apaixonado pelo desenvolvimento de componentes
             reutilizáveis. Também possuo experiência em projetos gerenciados por

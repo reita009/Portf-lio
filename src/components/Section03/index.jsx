@@ -6,22 +6,6 @@ const Section03 = () => {
     <>
       <C.Container>
         <h1>Projetos</h1>
-
-        <div className="box-project">
-          <div className="title">
-            <h1>Destaques</h1>
-          </div>
-
-          <div
-            className="project"
-            style={{
-              backgroundImage: `url(${image})`,
-              backgroundSize: "cover",
-            }}
-          >
-            <h1>Loocal</h1>
-          </div>
-        </div>
       </C.Container>
     </>
   );
